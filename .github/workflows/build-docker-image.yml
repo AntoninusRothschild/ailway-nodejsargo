@@ -47,7 +47,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           # 使用转换后的小写变量 env.OWNER_LC
           tags: |
-            ghcr.io/${{ env.OWNER_LC }}/raliwaynodejsargo:59195
+            ghcr.io/${{ env.OWNER_LC }}/raliwaynodejsargo:58185
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=HTTP Server
